@@ -615,7 +615,7 @@ input[type=button] {
     width: 62%
   }
 
-  features i {
+  .features i {
     margin-bottom: 30px;
   }
 
@@ -634,7 +634,7 @@ input[type=button] {
     width: 49%;
   }
 
-  reviews h3 {
+  .reviews h3 {
     width: 75%;
     margin: 0;
   }
@@ -785,12 +785,17 @@ input[type=button] {
   }
 
   /* Reviews */
-  .reviews article div {
-    width: 42%;
-  }
 
   .reviews h2 {
     padding-bottom: 50px;
+  }
+
+  .reviews h3 {
+    width: 75%;
+  }
+
+  .reviews article div {
+    width: 42%;
   }
 
   /* Footer */
